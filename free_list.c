@@ -47,8 +47,6 @@ list_create (Free_List *list, size_t bytes)
       tmp = tmp->next;
       return tmp->ptr;
     }
-
-  return NULL;
 }
 
 void *
